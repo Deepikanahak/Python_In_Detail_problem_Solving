@@ -4,8 +4,7 @@ def palindrome(str):
     for ch in str:
         rev = ch + rev
     if str == rev:
-        return "palindrom"
-    return "not palindrom"
-
-str = input("enter a string to check for palindroom: ")
+        return "This string is palindrome"
+    return "This string is not palindrom"
+str = input("enter a string to check for palindrome: ")
 print(palindrome(str))
