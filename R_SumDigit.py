@@ -1,3 +1,4 @@
+#10. Find sum of digits of a number
 def SumDigits(num):
     if num == 0:
         return 0
